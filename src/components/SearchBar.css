@@ -1,0 +1,30 @@
+.Search{
+  width:62vw;
+  height: 5vh;
+  border: 1 px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.SearchInput{
+  border: none;
+  width:55vw;
+  height:4vh;
+}
+
+.SearchInput:focus{
+
+  outline: none;
+
+}
+.searchButton{
+  background-color: black;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.searchIcon{
+  height: 1.5rem;
+
+  color: aliceblue;
+
+  width:5rem
+}

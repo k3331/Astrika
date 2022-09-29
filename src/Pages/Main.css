@@ -1,0 +1,17 @@
+.main{
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding:2rem;
+}
+
+.load{
+  color:white;
+  background-color: black;
+  margin-top: 2rem;
+  width:10vw;
+  cursor: pointer;
+  height:5vh
+
+}
