@@ -4,8 +4,7 @@ import './Main.css'
 import axios from "axios"
 import {connect} from 'react-redux'
 import {ADD,DELETE} from '../redux/Actions'
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+
 
 
 function Main(props) {
@@ -21,9 +20,11 @@ function Main(props) {
   useEffect(() => {
     axios.get(baseURL).then((response) => {
       props.addData({data:response?.data?.results})
+      setI(9)
+
       
     });
-  }, [query,]);
+  }, [query]);
 
  
   
